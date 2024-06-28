@@ -27,7 +27,7 @@ The required packages are as follows:
 - scikit-learn==0.21.3
 
 ### 2.3 Dataset
-
+We use the common dataset, namely, the large-scale collaborative dataset published by O'Neil et al. as the benchmark dataset for training and evaluating the model. This dataset covers a total of 23052 pieces of data from 39 cancer cell lines in 7 tissues with 583 different drug combinations. There are 38 drugs in this dataset, consisting of 24 FDA approved drugs and 14 experimental drugs.
 ### 2.4 Quick Start
 First, you need to be in the ~/MMFSyn/predictor file directory, and then run the following code:
 
