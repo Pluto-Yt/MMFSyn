@@ -16,16 +16,16 @@ To use MMFSyn you must make sure that your python version is greater than 3.7. I
 ```python
 >>> import platform
 >>> platform.python_version()
-'3.7.13'
+'3.9.12'
 ```
 
 ### 2.2 Environment Requirement
 The required packages are as follows:
-- PyTorch==1.7.0
-- PyTorch-Geometric==1.5.0
-- numpy==1.19.2
-- scikit-learn==0.21.3
-
+- PyTorch==1.11.0
+- PyTorch-Geometric==2.0.4
+- numpy==1.22.4
+- scikit-learn==1.1.1
+- rdkit==2022.03.2
 ### 2.3 Dataset
 We use the common dataset, namely, the large-scale collaborative dataset published by O'Neil et al. as the benchmark dataset for training and evaluating the model. This dataset covers a total of 23052 pieces of data from 39 cancer cell lines in 7 tissues with 583 different drug combinations. There are 38 drugs in this dataset, consisting of 24 FDA approved drugs and 14 experimental drugs.
 ### 2.4 Quick Start
