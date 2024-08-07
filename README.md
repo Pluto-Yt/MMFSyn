@@ -41,7 +41,7 @@ The required packages are as follows:
 - rdkit==2022.03.2
 
 ### 3.3 Dataset
-We use a widely-recognized dataset, specifically, the large-scale collaborative dataset released by O'Neil and colleagues, as the benchmark for training and evaluating our model. This dataset encompasses 23052 data entries from 39 cancer cell lines across 7 tissues, featuring 583 different drug combinations. There are 38 drugs in this dataset, 24 of which are FDA approved and 14 are experimental.
+We use a widely-recognized dataset, specifically, the large-scale collaborative dataset released by O'Neil and colleagues, as the benchmark for training and evaluating our model. This dataset encompasses 23062 data entries from 39 cancer cell lines across 7 tissues, featuring 583 different drug combinations. There are 38 drugs in this dataset, 24 of which are FDA approved and 14 are experimental.In other words, this dataset contains 23062 quadruples, each including two drugs, a cancer cell line, and corresponding synergistic effect scores. For the model training and evaluation, we divide them into the training set and the test set at a ratio of 9:1.
 
 ### 3.4 Quick Start
 First, you need to be in the ~/MMFSyn/predictor file directory, and then run the following code:
